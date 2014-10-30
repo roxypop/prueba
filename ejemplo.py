@@ -11,11 +11,16 @@ def divicion(a, b):
 
 
 def cast():
-    i = 10
-    f = 10.5
+   lista=[1,2,3, "hola"{"key1":"Rosa","key2":"Armando"}(1,2,3)]
+   tupla=(1,2,3)
+   diccionario={"key1":"Rosa","key2":"Armando"}
+    for i in lista:
+        print i
+   """for k,v in diccionario.items():
+       print "%s %s" %(k,v)"""
 
-    int(10.5)
-    print "funcion"
+
+
 
 
 def main():
@@ -56,6 +61,7 @@ def main():
         print contador
         contador +=1
     exception()
+    print cast()
 
 if __name__ == "__main__":
     main()
